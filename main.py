@@ -43,5 +43,6 @@ if __name__ == '__main__':
     agenda = AgendaDB('agenda.db')
 
     agenda.buscar('Pedro')
+    agenda.fechar()
 
 
